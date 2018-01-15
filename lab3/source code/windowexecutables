@@ -1,0 +1,21 @@
+# @Author: Saroj Dhwaz Shrestha <saroj>
+# @Date:   2018-01-15T09:55:47+05:45
+# @Filename: windowexecutables
+# @Last modified by:   saroj
+# @Last modified time: 2018-01-15T09:57:48+05:45
+
+
+#!/bin/bash
+
+i686-w64-mingw32-gcc -o 1.exe 1.c
+i686-w64-mingw32-gcc -o 2.exe 2.c
+i686-w64-mingw32-gcc -o 3.exe 3.c
+i686-w64-mingw32-gcc -o 4.exe 4.c
+i686-w64-mingw32-gcc -o 5.exe 5.c
+i686-w64-mingw32-gcc -o 6.exe 6.c
+i686-w64-mingw32-gcc -o 7.exe 7.c
+i686-w64-mingw32-gcc -o 8.exe 8.c
+i686-w64-mingw32-gcc -o 9.exe 9.c
+i686-w64-mingw32-gcc -o 10.exe 10.c
+i686-w64-mingw32-gcc -o 11.exe 11.c
+i686-w64-mingw32-gcc -o 12.exe 12.c
