@@ -3,7 +3,7 @@
  * @Date:   2018-01-14T22:10:13+05:45
  * @Filename: 15.c
  * @Last modified by:   saroj
- * @Last modified time: 2018-01-18T23:47:47+05:45
+ * @Last modified time: 2018-01-20T09:27:30+05:45
  */
 
 #include <stdio.h>
@@ -13,8 +13,7 @@ void main(){
   int i = 0, count = 0;
 
   printf("Enter String below 100 Characters\n");
-  input = (char)getchar();
-  // scanf("%s\n", &input);
+  fgets(input, 100, stdin);
 
   while (1) {
     if (input[i] != '\0') {
