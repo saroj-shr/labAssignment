@@ -3,7 +3,7 @@
  * @Date:   2018-01-27T18:15:07+05:45
  * @Filename: 1.c
  * @Last modified by:   saroj
- * @Last modified time: 2018-01-27T18:40:12+05:45
+ * @Last modified time: 2018-02-10T16:01:49+05:45
  * @Lab:4 - 1
  * @min, max avg of n number of ages
  */
