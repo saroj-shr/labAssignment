@@ -4,7 +4,7 @@
  * @Filename: 4.c
  * @Objective: Ascending and escending order using bubble sort
  * @Last modified by:   saroj
- * @Last modified time: 2018-02-10T15:58:56+05:45
+ * @Last modified time: 2018-02-10T16:04:00+05:45
  */
 
 
@@ -35,6 +35,4 @@ void main(){
   for (size_t i = 0; i < 10; i++) {
     printf("\t%d\t\t%d\n",array1[i], array1[10 - 1 - i]);
   }
-
-
 }
