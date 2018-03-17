@@ -1,8 +1,31 @@
 /**
  * @Author: Saroj Dhwaz Shrestha <saroj>
- * @Date:   2018-02-12T19:27:28+05:45
+ * @Date:   2018-03-03
  * @Filename: 3.c
  * @Objective: largest among three
  * @Last modified by:   saroj
- * @Last modified time: 2018-02-17T19:36:04+05:45
- */
+  */
+
+
+#include<stdio.h>
+
+int largest(int, int, int);
+
+void main(){
+    static int a , b, c;
+
+    printf("Enter 3 numbers\n");
+    scanf("%d%d%d",&a, &b, &c);
+
+    printf("Largest among three is: %d", largest(a,b,c));    
+}
+
+int largest(int a , int b, int c){
+    if (a >b && b > c){
+        return a;
+    }else if(b > a && a > c){
+        return b;
+    }else{
+        return c;
+    }
+}
