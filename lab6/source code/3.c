@@ -25,5 +25,6 @@ void calculate(int n, int *p1, int *p2){
     for(i = 1; i <= n; i++){
         *p1 *= i;
     }
+
     *p2 = n * n;
 }
